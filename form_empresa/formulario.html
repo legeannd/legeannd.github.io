@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tabajara Corp.</title>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<div class="imagem"><img src="images/industry.png"></div>
+		<div class="header"><h1>Organizações Tabajara</h1></div>
+		<ul>
+			<li><a href="inicial.html">Home</a></li>
+			<li><a href="sobre.html">Quem somos</a></li>
+			<li><a class="active" href="#">Trabalhe conosco</a></li>
+			<li style="float:right"><a href="index.html">Sair</a></li>
+		</ul>
+		<h2>Envie-nos seu currículo</h2>
+		<div class="formulario">
+			<form method="post" action="enviado.html">
+				Nome: <input style="width:295px" type="text" name="nome" placeholder="Nome" autofocus required><br>
+				Email: <input style="width:300px" type="email" name="email" placeholder="Email" required><br>
+				Telefone: <input style="width:268px" type="text" name="tel" placeholder="(XX)XXXXX-XXXX" required><br>
+				Idade: <input style="width:290px" type="number" name="idade" min="18" max="99" placeholder="XX" required><br>
+				Data de nascimento: <input style="width: 154px" type="date" name="nascimento"><br>
+				Formação acadêmica:<br>
+				<textarea class="inputbox" name="formacao" rows="10" cols="20"></textarea>
+				<div class="sideb">
+					Sexo:
+					<input style="margin: 30px 0 0 0" type="radio" name="sexo" value="masc">Masculino
+					-
+					<input style="margin: 30px 0 0 0" type="radio" name="sexo" value="fem">Feminino
+					<br>
+					Experiência profissional:<br>
+					<textarea class="inputbox" name="experiencia" rows="10" cols="20"></textarea>
+					<input class="inputbuttom2" type="submit" name="formulario" value="Enviar formulário">
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

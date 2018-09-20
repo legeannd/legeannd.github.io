@@ -1,0 +1,367 @@
+body{
+  font-family: sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  background: #F0F1F5;
+  overflow-x: hidden;
+}
+@media screen and (min-width: 1024px) {
+  header{
+    text-align: left;
+    font-size: 100%;
+    color: #FC575E;
+    padding-left: 2%;
+    position: fixed absolute;
+  }
+  #navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FC575E;
+
+  }
+  #navbar li{
+    float: right;
+  }
+  #navbar li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 16px;
+    color: #F0F1F5;
+    display: block;
+    transition: 0.4s;
+
+  }
+  footer{
+    text-align: center;
+    position: static;
+    float: left;
+    color: #fff;
+    background: #112233;
+    padding: 1%;
+    margin: 10% 0 0 0;
+    width: 100%;
+    font-size: 80%;
+  }
+  #navbar li a:hover{
+    background: #FC795E;
+    transition: 0.4s;
+    opacity: 0.8;
+  }
+  #noticias{
+    margin: 10% 0 20% 5%;
+    max-width: 20%;
+    max-height: 30%;
+    font-size: 110%;
+    padding: 2%;
+    float: left;
+    position: static;
+  }
+  #noticias p{
+    margin: 10% 0 0 0;
+  }
+  #noticias a{
+    text-decoration: none;
+    color: #000;
+  }
+  #noticias a:hover{
+    color: #0000ff
+  }
+  h2{
+    text-align: center;
+    color: #FC575E;
+  }
+  #titulo h1{
+    color: #FC575E;
+    font-size: 300%;
+    text-align: center;
+    margin: 1% 0 -5% 0;
+  }
+  #tecnico{
+    margin: 10% 0% 20% 10%;
+    text-align: justify;
+    max-width: 20%;
+    max-height: 30%;
+    font-size: 110%;
+    padding: 2%;
+    float: left;
+    position: static;
+  }
+  #imagens{
+    margin: 10% 0 20% 10%;
+    max-width: 20%;
+    max-height: 30%;
+    font-size: 110%;
+    padding: 2%;
+    float: left;
+    position: static;
+  }
+  #imagens p{
+    margin: -1% 0 15% 0;
+    font-size: 80%;
+  }
+  #imagens img{
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  #corpo{
+    max-width: 80%;
+    position: static;
+    margin: 10% 0 0 10%;
+  }
+  #corpo img{
+    max-width: 100%;
+    margin: 5% 20%;
+    border-radius: 10px;
+  }
+  #corpo p{
+    text-align: left;
+    line-height: 1.8;
+    text-indent: 30px;
+  }
+}
+@media screen and (max-width: 1023px){
+  header{
+    text-align: left;
+    font-size: 100%;
+    color: #FC575E;
+    padding-left: 2%;
+    position: fixed absolute;
+  }
+  #navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FC575E;
+    font-size: 120%;
+  }
+  #navbar li{
+    float: right;
+  }
+  #navbar li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 16px;
+    color: #F0F1F5;
+    display: block;
+    transition: 0.4s;
+
+  }
+  footer{
+    text-align: center;
+    position: static;
+    float: left;
+    color: #fff;
+    background: #112233;
+    width: 100%;
+    padding: 1%;
+    margin: 0;
+    font-size: 80%;
+  }
+  #noticias{
+    margin: 10% 0 10% 5%;
+    max-width: 40%;
+    max-height: 30%;
+    font-size: 110%;
+    padding: 2%;
+    position: static;
+    float: left;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  #noticias p{
+    margin: 10% 0 0 0;
+  }
+  #noticias a{
+    text-decoration: none;
+    color: #000;
+  }
+  #noticias a:hover{
+    color: #0000ff
+  }
+  h2{
+    text-align: center;
+    color: #FC575E;
+  }
+  #titulo h1{
+    color: #FC575E;
+    font-size: 300%;
+    text-align: center;
+    margin: 1% 0 -5% 0;
+  }
+  #tecnico{
+    margin: 10% 5% 20% 0;
+    max-width: 40%;
+    max-height: 30%;
+    font-size: 110%;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 2%;
+    position: static;
+    float: right;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  #imagens{
+    margin: 0% 0 20% 5%;
+    max-width: 40%;
+    max-height: 30%;
+    font-size: 110%;
+    padding: 2%;
+    position: static;
+    float: left;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  #imagens p{
+    margin: -1% 0 15% 0;
+    font-size: 80%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  #imagens img{
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  #corpo{
+    max-width: 80%;
+    position: static;
+    margin: 10% 0 0 10%;
+  }
+  #corpo img{
+    max-width: 100%;
+    margin: 5% 5%;
+    border-radius: 10px;
+  }
+  #corpo p{
+    text-align: left;
+    line-height: 1.8;
+    text-indent: 30px;
+  }
+}
+@media screen and (max-width: 480px){
+  header{
+    text-align: left;
+    font-size: 100%;
+    color: #FC575E;
+    padding-left: 2%;
+    position: fixed absolute;
+  }
+  #navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FC575E;
+
+  }
+  #navbar li{
+    float: none;
+  }
+  #navbar li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 16px;
+    color: #F0F1F5;
+    display: block;
+    transition: 0.4s;
+    border: 1px solid #fff;
+  }
+  footer{
+    text-align: center;
+    position: static;
+    float: left;
+    color: #fff;
+    background: #112233;
+    padding: 1%;
+    width: 100%;
+    margin: 50% 0 0 0;
+    font-size: 80%;
+  }
+  #titulo h1{
+    color: #FC575E;
+    text-align: center;
+    margin: 10% 0 0% 0;
+  }
+  #noticias{
+    margin: 5%;
+    text-align: center;
+    max-width: 90%;
+    max-height: 30%;
+    font-size: 110%;
+    padding: 2%;
+    position: static;
+    float: left;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  #noticias p{
+    margin: 10% 0 0 0;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  #noticias a{
+    text-decoration: none;
+    color: #000;
+  }
+  #noticias a:hover{
+    color: #0000ff
+  }
+  h2{
+    text-align: center;
+    color: #FC575E;
+  }
+  #tecnico{
+    margin: 5%;
+    max-width: 90%;
+    max-height: 30%;
+    font-size: 110%;
+    padding: 2%;
+    position: static;
+    float: left;
+    line-height: 1.5;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  #imagens{
+    margin: 5%;
+    max-width: 90%;
+    max-height: 30%;
+    font-size: 110%;
+    padding: 2%;
+    position: static;
+    float: left;
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  #imagens p{
+    margin: -1% 0 15% 0;
+    font-size: 80%;
+    border-bottom: 1px solid #fff;
+    border-radius: 10px;
+  }
+  #imagens img{
+    max-width: 90%;
+    margin: 5%;
+    border-radius: 10px;
+  }
+  #corpo{
+    max-width: 90%;
+    position: static;
+    margin: 5% 5%;
+  }
+  #corpo img{
+    max-width: 90%;
+    margin: 5%;
+    border-radius: 10px;
+  }
+  #corpo p{
+    text-align: left;
+    line-height: 1.8;
+    text-indent: 30px;
+    text-align: justify;
+  }
+}

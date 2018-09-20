@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Votação de classe</title>
+		<style>
+			input{background:#C5EFF7}
+			input:hover{background-color:#DCC6E0}
+			h1:hover{color:#22313F}
+		</style>
+	</head>
+	<body style="font-family:arial; background:#E4F1FE">
+		<h1 style="text-align:center">Eleições 2017 sala</h1>
+		<p>			
+			<form method="post" action="formpreen.html">
+				Digite seu nome e sua senha:<br>
+				<input type="text" name="nome" size="15" placeholder="Nome">
+				<input type="password" name="nome" size="15" value="abc" maxlength="8">
+				<br>
+				<hr>
+				<br>
+				Selecione seu sexo:<br>
+				<input type="radio" name="sexo" value="masc" checked>Masculino<br>
+				<input type="radio" name="sexo" value="fem">Feminino<br>
+				<input type="radio" name="sexo" value="outro">Outro<br>
+				<br>
+				Em quem você votaria para líder?<br>
+				<select size="1" name="lider">
+					<option value="gean" selected>Gean</option>
+					<option value="nicholson">Nicholas</option>
+					<option value="nelson">Valdinei</option>
+				</select>
+				<br>
+				<br>
+				Em quem você votaria para vice-líder?<br>
+				<select size="1" name="lider">
+					<option value="edu" selected>Eduardo</option>
+					<option value="lusca">Lucas Sena</option>
+					<option value="fillip">Fillipe</option>
+				</select>
+				<br>
+				<br>
+				Em quem você votaria para secretário?<br>
+				<input type="checkbox" name="vinicyus" value="vinicyus" checked>Vinicyus
+				<input type="checkbox" name="italo" value="italo">Ítalo
+				<input type="checkbox" name="dawid" value="dawid">Dáwid
+				<br>
+				<br>
+				Quem você considera o mais humorista?<br>
+				<input type="checkbox" name="italo" value="italo" checked>Ítalo
+				<input type="checkbox" name="sena" value="sena">Sena
+				<input type="checkbox" name="sena" value="sena">Sena
+				<br>
+				<br>
+				Quem é o mais estiloso topzera?<br>
+				<input type="radio" name="estilo" value="dawid" checked>Dáwid
+				<input type="radio" name="estilo" value="viinicyus">Vinicyus
+				<input type="radio" name="estilo" value="fillipe">Fillipe
+				<br>
+				<br>
+				Quem é o mais tímido?<br>
+				<input type="radio" name="timido" value="gean" checked>Gean
+				<input type="radio" name="timido" value="mulittle">Murilo
+				<input type="radio" name="timido" value="lusca">Senha
+				<br>
+				<br>
+				Gostou dessa votação? Deixe seu comentário!<br>
+				<textarea name="opiniao" rows="10" cols="40">Votação excelente!</textarea>				
+				<br>
+				<br>
+				<input type="reset" value="Apagar tudo">
+				<input type="submit" value="Enviar formulário">
+				<input type="button" value="Useless button">
+			</form>
+		</p>
+	</body>
+</html>

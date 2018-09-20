@@ -1,0 +1,154 @@
+body{
+	font-family: sans-serif;
+	font-size: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: rgba(236, 240, 241, 0,5);
+}
+@font-face{
+	font-family: fonte;
+	src: url(fonts/LEIXO-DEMO.ttf);
+}
+.header{
+	font-size: 120%;
+	color: #fff;
+	font-family: fonte;
+	text-align: center;
+	background: rgba(108, 122, 137, 0.4);
+	margin: -2% -2% 0 -2%;
+	padding: 1% 0 1% 0;
+	position: relative;
+	transition: 0.5s;
+}
+
+h1:hover{
+	transition: 0.5s;
+	box-shadow: 5px 5px 50px;
+	border: 1px solid;
+	background: rgba(108, 122, 137, 1);
+	-webkit-transform: scale(1.1, 1.1);
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 -1%;
+	width: 110%;
+	background: #95A5A6;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+}
+
+li a{
+    display: block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+   	background: #95A5A6;
+ 	transition: 0.2s;
+
+}
+
+li a:hover{
+	transition: 0.2s;
+	background: #D2D7D3;
+	-webkit-transform: scale(1.1, 1.1);
+	border: 0 2px solid;
+   	border-radius: 10px;
+}
+
+.active{
+	background: #ABB7B7;
+}
+
+.corpo{
+	font-size: 110%;
+	position: absolute;
+	width: 80%;
+	margin: 5% 10%;
+	background: rgba(171, 183, 183, 0.2);
+	border: 1px solid rgba(171, 183, 183, 0.2);
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(171, 183, 183, 0.2);
+}
+
+.corpo p{
+	padding: 2%;
+	text-align: left;
+}
+
+.corpo h2{
+	padding: 2%;
+	text-align: center;
+}
+
+.corpo img{
+	border-radius: 10px;
+	margin: 0 20% 0 20%;
+}
+
+table{
+	width: 50%;
+	border: 1px solid;
+	border-radius: 3px;
+	margin: 0 20% 0 20%;
+	text-align: center;
+}
+
+th{
+	padding: 8px 16px;
+}
+
+td{
+	padding: 8px 16px;
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+iframe{
+	margin: 0% 5%;
+}
+
+form{
+	margin: 0% 5%;
+}
+
+input, textarea{
+	margin: 10px 0px;
+	width: 50%;
+}
+
+input[type=submit]{
+	padding: 8px 16px;
+	background: rgba(108, 122, 137, 0.4);
+	color: #FFF;
+	border: 1px solid;
+	transition: 0.4s;
+	font-size: 110%;
+
+}
+
+input[type=submit]:hover{
+	transition: 0.4s;
+	border-radius: 5px;
+	background: rgba(108, 122, 137, 1);
+	-webkit-transform: scale(1.1, 1.1);
+}
+
+textarea{
+	width: 50%;
+	height: 20%;
+	resize: none;
+}
+
+.corpo a{
+	color: #000;
+	text-decoration: none;
+}
+
+.corpo a:hover{
+	color: #8e44ad;
+}
